@@ -14,6 +14,7 @@
 		ED98DAEC293782A800DDC2B5 /* MaPremiereAppSwiftUiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED98DAEB293782A800DDC2B5 /* MaPremiereAppSwiftUiTests.swift */; };
 		ED98DAF6293782A800DDC2B5 /* MaPremiereAppSwiftUiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED98DAF5293782A800DDC2B5 /* MaPremiereAppSwiftUiUITests.swift */; };
 		ED98DAF8293782A800DDC2B5 /* MaPremiereAppSwiftUiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED98DAF7293782A800DDC2B5 /* MaPremiereAppSwiftUiUITestsLaunchTests.swift */; };
+		ED98DB07293793BC00DDC2B5 /* MonComposant.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED98DB06293793BC00DDC2B5 /* MonComposant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		ED98DAF1293782A800DDC2B5 /* MaPremiereAppSwiftUiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaPremiereAppSwiftUiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED98DAF5293782A800DDC2B5 /* MaPremiereAppSwiftUiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaPremiereAppSwiftUiUITests.swift; sourceTree = "<group>"; };
 		ED98DAF7293782A800DDC2B5 /* MaPremiereAppSwiftUiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaPremiereAppSwiftUiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ED98DB06293793BC00DDC2B5 /* MonComposant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonComposant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				ED98DADA293782A600DDC2B5 /* MaPremiereAppSwiftUiApp.swift */,
+				ED98DB06293793BC00DDC2B5 /* MonComposant.swift */,
 				ED98DADC293782A600DDC2B5 /* ContentView.swift */,
 				ED98DADE293782A700DDC2B5 /* Assets.xcassets */,
 				ED98DAE0293782A700DDC2B5 /* Preview Content */,
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED98DB07293793BC00DDC2B5 /* MonComposant.swift in Sources */,
 				ED98DADD293782A600DDC2B5 /* ContentView.swift in Sources */,
 				ED98DADB293782A600DDC2B5 /* MaPremiereAppSwiftUiApp.swift in Sources */,
 			);

@@ -8,12 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var toggleIsOn = false
+    
     var body: some View {
-        VStack {
+        List {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
+                .padding()
+            Text("dsf")
+            HStack{
+                Text("c'est stack sur le cote")
+                Text("ah oui")
+            }
+            MonComposant(isOn: $toggleIsOn)
+            MonComposant(isOn: $toggleIsOn)
+            MonComposant(isOn: $toggleIsOn)
+            MonComposant(isOn: $toggleIsOn)
         }
         .padding()
     }
